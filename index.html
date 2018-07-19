@@ -1,0 +1,118 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="form.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<h1 id="title">Volunteer Form</h1>
+<h6>(* are required fields.You have to fill them up.)</h6>
+
+    <div class="container">
+
+        <form class="form-horizontal" id="survey-form">
+
+            <div class="form-group">
+                <label class="control-label col-sm-5" for="Name" id="name-label">* Name:</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="Name" placeholder="Enter Name" name="Name" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-5" for="Email" id="email-label">* Email:</label>
+                <div class="col-sm-5">
+                    <input type="email" class="form-control" id="Email" placeholder="Enter Email" name="Email" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-5" for="Age" id="number-label">* Age:</label>
+                <div class="col-sm-5">
+                    <input type="number" class="form-control" id="number" placeholder="Enter Age" name="Age" required>
+                </div>
+            </div>
+                <div class="form-group">
+                <label class="control-label col-sm-5" for="Age" id="number-label">* Address:</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="address" placeholder="Enter your permanent address" name="Age" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-5" for="recommondation">* Qualification:</label>
+                <div class="col-sm-5">
+                    <div class="radio">
+                        <label><input type="radio" name="optradio" required>10</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio" required>12</label>
+                    </div>
+                  <div class="radio">
+                        <label><input type="radio" name="optradio" required>Under Graduate</label>
+                    </div>
+                    <div class="radio">
+                      
+                        <label><input type="radio" name="optradio" required>Graduate</label>
+                    </div>
+                  <div class="radio">
+                        <label><input type="radio" name="optradio" required>Post Graduate</label>
+                    </div>
+                  <div class="radio">
+                        <label><input type="radio" name="optradio" required>Others</label>
+                    </div>
+                </div>
+            </div>
+                 <div class="form-group">
+                <label class="control-label col-sm-5" for="Name" id="name-label"> Enter the name of your school/college:</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="Name" placeholder="Enter School/College name" name="Name" required>
+                </div>
+            </div>
+            
+
+           
+            
+                 <div class="form-group">        
+                <label class="control-label col-sm-5" for="improvements">What are your interest?</label>
+                <div class="col-sm-5">
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Internet Infrastructure Analysis</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Transportation Cybersecurity</label>
+                    </div>
+                    <div class="checkbox ">
+                        <label><input type="checkbox" value="" >Social Engineering</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Cyber Self-Defense</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="">Security Intelligence for Trending Events</label>
+                    </div>
+                   
+                </div>
+            </div>
+
+            
+
+            <div class="form-group">
+                <label class="control-label col-sm-5" for="suggestions">* Your skills:</label>
+                <div class="col-sm-5">
+                    <textarea class="form-control" rows="5" id="comment" placeholder="Enter your skills here..." required></textarea>
+                </div>
+            </div>
+             <div class="form-group">
+                <label class="control-label col-sm-5" for="Liked">* Why are you interested in volunteerig?</label>
+              <div class="col-sm-5">
+                    <textarea class="form-control" rows="5" id="comment" placeholder="Why are you interested?" required></textarea>
+                </div>
+            </div>
+            
+            <div class="form-group ">
+                <div class="col-sm-12">
+                    <button type="submit" class="btn btn-default button" id="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>   
